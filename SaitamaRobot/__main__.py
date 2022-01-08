@@ -54,7 +54,7 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 *Hello, {}, myself {}!* 
 *An Anime themed group management bot.*
-
+###Use /help
 • *Uptime:* `{}`
 • `{}` *users, across* `{}` *chats.*
 """
@@ -217,7 +217,7 @@ def start(update: Update, context: CallbackContext):
                              url="https://t.me/Nexus_Network"),                    
                         InlineKeyboardButton(
                              text="Help & Commands",
-                             url="https://t.me/PainAkatsukiRobot?start=help"),      
+                             url="https://t.me/TheHunterAlpha_Bot?start=help"),      
                     ]]))
     else:
         update.effective_message.reply_video(
