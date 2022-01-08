@@ -217,7 +217,7 @@ def start(update: Update, context: CallbackContext):
                              url="https://t.me/Nexus_Network"),                    
                         InlineKeyboardButton(
                              text="Help & Commands",
-                             url="https://t.me/TheHunterAlpha_Bot?start=help"),      
+                             InlineKeyboardButton('👨🏼‍🦯 Ayuda', callback_data='help_main'),      
                     ]]))
     else:
         update.effective_message.reply_video(
