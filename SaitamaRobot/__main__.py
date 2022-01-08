@@ -215,9 +215,9 @@ def start(update: Update, context: CallbackContext):
                         InlineKeyboardButton(
                              text="Our Network",
                              url="https://t.me/Nexus_Network"),                    
-                       } [
-                          }
-                            InlineKeyboardButton('👨🏼‍🦯 Ayuda', callback_data='help_main      
+                        InlineKeyboardButton(
+                             text="Help & Commands",
+                             url="https://t.me/PainAkatsukiRobot?start=help"),      
                     ]]))
     else:
         update.effective_message.reply_video(
